@@ -122,10 +122,12 @@ const webTechStacks = [
   {
     name: "Html5",
     icon: <SiHtml5 fontSize="20px" />,
+    url: "https://html.com/",
   },
   {
     name: "CSS",
     icon: <SiCss3 fontSize="20px" />,
+    url: "https://www.w3.org/Style/CSS/Overview.en.html",
   },
   {
     name: "TailwindCSS",
