@@ -48,7 +48,7 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
           fontSize={{ base: "28px", md: "40px", lg: "48px" }}
           mb={3}
         >
-          Hey, I am Teo! <span className="waving-hand">👋</span>
+          Hey, I am Maxim! <span className="waving-hand">👋</span>
         </Heading>
         <MotionFlex alignItems={"flex-end"} whileHover={{ scale: 1.2 }}>
           <Avatar
@@ -60,42 +60,24 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
         </MotionFlex>
       </MotionFlex>
       <Paragraph textProps={{ fontSize: "2xl", lineHeight: 1.6 }}>
-        Front-End Engineer from Malaysia 🇲🇾
+        Developer from Germany 🇩🇪
       </Paragraph>
       <Paragraph textProps={{ fontSize: "2xl", lineHeight: 1.6 }}>
         Focused on{" "}
         <Link
           color={useColorModeValue("blue.500", "blue.400")}
-          href="https://www.android.com/"
+
           fontWeight="500"
           isExternal
         >
-          Web
+          Web Development
         </Link>
-        {" & "}
-        <Link
-          color={useColorModeValue("blue.500", "blue.400")}
-          href="https://reactnative.dev/"
-          fontWeight="500"
-          isExternal
-        >
-          Mobile Development (Android & iOS)
-        </Link>
-        .{"\n"}Passion in beautiful UI / UX & Tech Writter on{" "}
-        <Link
-          color={useColorModeValue("blue.500", "blue.400")}
-          href="https://skynight1996.medium.com/"
-          fontWeight="500"
-          isExternal
-        >
-          Medium
-        </Link>
-        . 🔥
+        .<br></br>
+        {"\n"}Passion in Web, Design, Audio and Videography.{" "}
       </Paragraph>
 
       <Box mt={5}>
         <ButtonGroup>
-          <SocialButton social={resume} />
           <Link href={"/contact"} style={{ textDecoration: "none" }}>
             <Button
               colorScheme="blue"

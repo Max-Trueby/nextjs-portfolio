@@ -9,16 +9,15 @@ const NextDocument = () => {
         <link rel="icon" href="/profile_picture.png" />
 
         {/* <!-- Primary Meta Tags --> */}
-        <meta name="title" content="Teo"></meta>
-        <meta name="description" content="Teo | Front End Engineer"></meta>
-        <meta name="keywords" content="React, Android, Javascript, Kotlin, Java, SCSS, Redux"></meta>
+        <meta name="title" content="maxtrueby"></meta>
+        <meta name="description" content="maxtrueby | Developer"></meta>
 
         {/* PWA */}
-        <meta name="application-name" content="Teo" />
+        <meta name="application-name" content="maxtrueby" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Teo" />
-        <meta name="description" content="Teo | Front End Engineer" />
+        <meta name="apple-mobile-web-app-title" content="maxtrueby" />
+        <meta name="description" content="maxtrueby | Developer" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />
@@ -64,19 +63,19 @@ const NextDocument = () => {
         <link rel="shortcut icon" href="/favicon.ico" /> */}
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:url" content="https://www.teowenlong.com/" />
-        <meta name="twitter:title" content="Teo" />
-        <meta name="twitter:description" content="Teo | Front End Engineer" />
-        <meta
+        <meta name="twitter:url" content="https://maxtrueby.com/" />
+        <meta name="twitter:title" content="maxtrueby" />
+        <meta name="twitter:description" content="maxtrueby | Developer" />
+        {/*<meta
           name="twitter:image"
           content="https://res.cloudinary.com/teo1996/image/upload/v1681184234/lkauudqm9kgkrkmt6mvv.png"
-        />
-        <meta name="twitter:creator" content="@Teo" />
+      />*/}
+        <meta name="twitter:creator" content="@maxtrueby" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Teo" />
-        <meta property="og:description" content="Teo | Front End Engineer" />
-        <meta property="og:site_name" content="Teo" />
-        <meta property="og:url" content="https://www.teowenlong.com/" />
+        <meta property="og:title" content="maxtrueby" />
+        <meta property="og:description" content="maxtrueby | Developer" />
+        <meta property="og:site_name" content="maxtrueby" />
+        <meta property="og:url" content="https://maxtrueby.com/" />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/teo1996/image/upload/v1681184234/lkauudqm9kgkrkmt6mvv.png"

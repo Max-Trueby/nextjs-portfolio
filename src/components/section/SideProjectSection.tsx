@@ -30,14 +30,14 @@ export const SideProjectSection: React.FC<ILiveProjectSection> = ({
         textColor={useColorModeValue("gray.600", "gray.400")}
         fontSize={"lg"}
       >
-        List of projects that I have made in the past.
+        👀 Nothing to see here yet.
       </Text>
 
-      <SimpleGrid columns={[1, 1, 2, 2]} mt={5}>
+      {/*<SimpleGrid columns={[1, 1, 2, 2]} mt={5}>
         {sideProjects.map((project) => {
           return <SideProjectCard key={project.name} project={project} />;
         })}
-      </SimpleGrid>
+      </SimpleGrid>*/}
     </SlideFade>
   );
 };

@@ -6,6 +6,7 @@ import {
   Image,
   Text,
   Heading,
+  Link,
   VStack,
   useColorModeValue,
   HStack,
@@ -41,7 +42,7 @@ const SpotifySection: React.FC<ISpotifySection> = ({ song }) => {
         >
           <VStack>
             <HStack alignSelf={{ base: "center", md: "flex-start" }} mb={2}>
-              <SiSpotify size={20} color={"#1ED760"} className="rotating" />
+              <SiSpotify size={20} color={"#1ED760"} />
               <Text>Spotify</Text>
             </HStack>
 
@@ -57,13 +58,24 @@ const SpotifySection: React.FC<ISpotifySection> = ({ song }) => {
                   alt={song?.album}
                   objectFit={"cover"}
                   boxSize={["100px", "100px", "100px", "100px"]}
+                  borderRadius={"10%"}
                   fallback={<SiSpotify size={20} color={"#1ED760"} />}
                 />
               ) : (
-                <SiSpotify size={100} color={"#1ED760"} />
+                <Image
+                margin="auto"
+                src="./notplaying.png"
+                objectFit={"cover"}
+                boxSize={["100px", "100px", "100px", "100px"]}
+                fallback={<SiSpotify size={100} color={"#1ED760"} />}
+              />
               )}
 
               <Flex flexDirection="column" ml={[0, 0, 5, 5]} mt={[5, 5, 0, 0]}>
+              <Link
+                  href= {song?.isPlaying ? song?.songUrl : ""}
+                  color={useColorModeValue("blue.500", "blue.400")}>
+                    
                 <Heading
                   as="h2"
                   fontSize="lg"
@@ -73,6 +85,8 @@ const SpotifySection: React.FC<ISpotifySection> = ({ song }) => {
                 >
                   {song?.isPlaying ? song?.title : "Not Listening"}
                 </Heading>
+
+                  </Link>
 
                 <Paragraph
                   textProps={{

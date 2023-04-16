@@ -7,6 +7,15 @@ import {
   SiTailwindcss,
   SiAntdesign,
   SiRedux,
+  SiHtml5,
+  SiCss3,
+  SiFigma,
+  SiDiscord,
+  SiWhatsapp,
+  SiVsco,
+  SiVisualstudiocode,
+  SiJetbrains,
+  SiPython,
 } from "react-icons/si";
 import {
   FaReact,
@@ -19,6 +28,7 @@ import {
   FaMedium,
   FaGithub,
   FaSass,
+  FaFigma,
 } from "react-icons/fa";
 import { CgAlbum } from "react-icons/cg";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -28,41 +38,29 @@ const menuLinks = [
   // { name: "Experience", route: "/experience" },
   // { name: "Projects", route: "/projects" },
   { name: "Github", route: "/github" },
-  { name: "Articles", route: "/article" },
+  // { name: "Articles", route: "/article" },
   { name: "Contact", route: "/contact" },
 ];
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Teo Wen Long. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} maxtrueby.com. All Rights Reserved.`,
   author: {
-    name: "Teo Wen Long",
+    name: "maxtrueby",
     accounts: [
       {
-        url: "https://github.com/WenLonG12345",
+        url: "https://github.com/Max-Trueby",
         icon: <FaGithub />,
         name: "Github",
         type: "gray",
       },
       {
-        url: "https://www.linkedin.com/in/teo-wen-long-19960316/",
-        icon: <FaLinkedin />,
-        name: "Linkedin",
-        type: "linkedin",
+        //url: "",
+        icon: <SiDiscord />,
+        name: "Discord",
+        type: "blue",
       },
       {
-        url: "https://stackoverflow.com/users/12261890/teo",
-        icon: <FaStackOverflow />,
-        name: "StackOverflow",
-        type: "orange",
-      },
-      {
-        url: "https://skynight1996.medium.com/",
-        icon: <FaMedium />,
-        name: "Medium",
-        type: "gray",
-      },
-      {
-        url: "mailto:teowenlong0316@gmail.com",
+        url: "mailto:admin@maxtrueby.com",
         icon: <SiGmail />,
         name: "Gmail",
         type: "red",
@@ -122,9 +120,12 @@ const webTechStacks = [
     url: "https://www.javascript.com/",
   },
   {
-    name: "Redux & Redux Saga",
-    icon: <SiRedux fontSize="20px" />,
-    url: "https://redux.js.org/",
+    name: "Html5",
+    icon: <SiHtml5 fontSize="20px" />,
+  },
+  {
+    name: "CSS",
+    icon: <SiCss3 fontSize="20px" />,
   },
   {
     name: "TailwindCSS",
@@ -132,14 +133,29 @@ const webTechStacks = [
     url: "https://tailwindcss.com/",
   },
   {
-    name: "Ant Design",
-    icon: <SiAntdesign fontSize="20px" />,
-    url: "https://ant.design/",
+    name: "Python",
+    icon: <SiPython fontSize="20px" />,
+    url: "https://python.org/",
   },
   {
-    name: "SASS",
-    icon: <FaSass fontSize="20px" />,
-    url: "https://sass-lang.com/",
+    name: "Discord",
+    icon: <SiDiscord fontSize="20px" />,
+    url: "https://discord.com/",
+  },
+  {
+    name: "Figma",
+    icon: <SiFigma fontSize="20px" />,
+    url: "https://figma.com/",
+  },
+  {
+    name: "VSCode",
+    icon: <SiVisualstudiocode fontSize="20px" />,
+    url: "https://vscode.dev/",
+  },
+  {
+    name: "JetBrains",
+    icon: <SiJetbrains fontSize="20px" />,
+    url: "https://jetbrains.com/",
   },
 ];
 
@@ -163,14 +179,14 @@ const otherTechStacks = [
 
 const companies = [
   {
-    title: "Astro",
-    alt: "astro image",
-    url: "https://www.astro.com.my/",
-    role: "Assiociate Frontend Engineer",
-    skills: ["React", "Sass", "Redux", "Redux Saga", "StorybookJS"],
-    period: "Oct 2022 - Present",
-    logo: "/astro.png",
-  },
+    title: "maxtrueby",
+    alt: "maxtrueby image",
+    url: "https://maxtrueby.com/",
+    role: "Chief Executive Officer & Founder",
+    skills: ["Next.js", "Html", "Css", "JS/TS", "Python"],
+    period: "Sep 2019 - Present",
+    logo: "/profile_picture.png",
+  },/*
   {
     title: "Qumon Intelligence",
     alt: "qumon image",
@@ -195,46 +211,42 @@ const companies = [
     skills: ["Java", "Android", "C#", "Appium Automation Testing", "AWS"],
     period: "Jul 2019 - Jan 2020",
     logo: "/timetec.png",
-  },
+  },*/
 ];
 
 const educations = [
   {
-    title: "University Technology Malaysia (UTM)",
-    alt: "utm image",
-    url: "https://www.utm.my/",
-    role: "Bachelor's Degree in Computer Science (Network and Security)",
-    skills: ["CGPA - 3.79", "CCNA", "Security Management", "Network Security"],
-    period: "Sept 2016 - Sept 2020",
-    logo: "/utm.png",
+    title: "High School",
+    alt: "image",
+    role: "Student & Tech (Light & Audio) Club Member",
+    skills: ["think properly", "read properly", "write properly", "calculate properly"],
+    period: "2018 - Pressent",
+    logo: "/flg.jpg",
   },
   {
-    title: "SMK Mentakab",
-    alt: "smk image",
-    url: "https://www.facebook.com/pages/category/College---university/Sekolah-Menengah-Kebangsaan-Mentakab-224802077565350/",
-    role: "STPM - Science Stream (Physics)",
-    skills: ["CGPA - 3.33", "Math T", "Physics", "Chemistry"],
-    period: "Jan 2015 - Jun 2016",
-    logo: "/smk.png",
+    title: "Elementary School",
+    alt: "image",
+    role: "Student",
+    skills: ["talk", "read", "write", "maths"],
+    period: "2014 - 2018",
+    logo: "/sws.gif",
   },
 ];
 
 const sideProjects = [
   {
-    name: "3CommasClub NFT",
+    name: "Porject Name",
     imageUrl: "/3commas.png",
-    alt: "3commasclub",
+    alt: "example",
     summary:
-      "NFC business card builder linked with unique NFT. Build business profile embed with NFC that allows others to scan and connect.",
-    link: "https://nextjs-3commasclub-frontend.vercel.app/",
+      "example placeholder",
+    link: "https://example.com/",
     tech: [
-      'NextJS',
-      "ChakraUI",
-      "Ant Design",
-      "Ant Design Pro"
+      'example',
+      'example',
     ]
   },
-  {
+  /*{
     name: "KlusterX Player Portal",
     imageUrl: "/klusterx_player.png",
     alt: "klusterx",
@@ -283,7 +295,7 @@ const sideProjects = [
       "RealmJS"
     ],
     link: "https://play.google.com/store/apps/details?id=io.chativo.visitor"
-  },
+  },*/
 ];
 
 export {

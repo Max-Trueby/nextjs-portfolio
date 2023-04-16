@@ -41,7 +41,7 @@ const Footer = () => {
           fontSize="sm"
           color={useColorModeValue("gray.500", "gray.200")}
         >
-          © {new Date().getFullYear()} Teo Wen Long{" "}
+          © {new Date().getFullYear()} maxtrueby.com forked and modified with ❤️ from <Link href="https://github.com/WenLonG12345/teo-nextjs-portfolio">Teo Wen Long's GitHub</Link>{" "}
         </Text>
 
         <Box textAlign="center">

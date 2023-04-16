@@ -37,11 +37,8 @@ const TechStackSection = () => {
       </Text>
       <Tabs variant="solid-rounded" mt={5}>
         <TabList>
-          <Tab mx={2}>Web</Tab>
-          <Tab mx={2}>Mobile</Tab>
-          <Tab mx={2}>Others</Tab>
+          <Tab mx={2}>Tools & Technologies</Tab>
         </TabList>
-
         <TabPanels>
           <TabPanel>
             <Grid

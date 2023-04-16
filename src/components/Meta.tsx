@@ -12,18 +12,18 @@ type IMeta = {
 
 const Meta: React.FC<IMeta> = ({
   title,
-  description = "A ReactJS/React Native developer, Android developer, UI / UX designer and tech enthusiast.",
-  keywords = "React, Android, Javascript, Typescript ,Kotlin, Java",
-  image = "https://res.cloudinary.com/teo1996/image/upload/v1681184234/lkauudqm9kgkrkmt6mvv.png",
+  description = "description",
+  keywords = "keywords",
+  image = "./profile_picture.png",
 }) => {
   const router = useRouter();
 
   let pageTitle;
   if (router.pathname === "/") {
-    pageTitle = "Teo | Front End Engineer";
+    pageTitle = "maxtrueby | Developer";
   } else {
     const path = router.pathname.split("/").pop();
-    pageTitle = `Teo | ${capitalise(path)}`;
+    pageTitle = `maxtrueby | ${capitalise(path)}`;
   }
 
   return (
@@ -39,7 +39,6 @@ const Meta: React.FC<IMeta> = ({
       <meta name="twitter:title" content={pageTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:card" content="summary_large_image" />
       <title>{pageTitle}</title>
     </Head>
   );

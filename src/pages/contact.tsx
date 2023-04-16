@@ -23,7 +23,7 @@ import { init } from "emailjs-com";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  init("user_CraRkhplYuq6PLLiXeFjw");
+  init("yt3pDANp6Ju-iWI2v");
 
   const toast = useToast();
 
@@ -46,7 +46,7 @@ const Contact = () => {
     setIsLoading(true);
 
     emailjs
-      .send("service_a2q7dpb", "teo_email_template", {
+      .send("service_0gjbph9", "template_riukjfh", {
         from_name: name,
         from_email: email,
         message: message,
