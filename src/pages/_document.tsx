@@ -78,7 +78,7 @@ const NextDocument = () => {
         <meta property="og:url" content="https://maxtrueby.com/" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/teo1996/image/upload/v1681184234/lkauudqm9kgkrkmt6mvv.png"
+          content="./profile_picture.png"
         />
 
         {/* apple splash screen images  */}
