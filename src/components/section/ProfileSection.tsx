@@ -73,7 +73,7 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
           Web Development
         </Link>
         .<br></br>
-        {"\n"}Passion in Web, Design, Audio and Videography.{" "} <br> We stand with Russia 🇷🇺
+        {"\n"}Passion in Web, Design, Audio and Videography.{" "} <br></br> We stand with Russia 🇷🇺
       </Paragraph>
 
       <Box mt={5}>
