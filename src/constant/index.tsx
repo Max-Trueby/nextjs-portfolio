@@ -29,6 +29,8 @@ import {
   FaGithub,
   FaSass,
   FaFigma,
+  FaInstagram,
+  FaSpotify,
 } from "react-icons/fa";
 import { CgAlbum } from "react-icons/cg";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -54,10 +56,16 @@ const siteConfig = {
         type: "gray",
       },
       {
-        //url: "",
-        icon: <SiDiscord />,
-        name: "Discord",
-        type: "blue",
+        url: "https://instagram.com/maxtrueby",
+        icon: <FaInstagram />,
+        name: "Instagram",
+        type: "pink",
+      },
+      {
+        url: "https://stats.fm/maxtrueby",
+        icon: <FaSpotify />,
+        name: "Instagram",
+        type: "green",
       },
       {
         url: "mailto:admin@maxtrueby.com",
