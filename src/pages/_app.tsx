@@ -1,6 +1,7 @@
 import "../../styles/globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import type { AppProps } from "next/app";
+import { Analytics } from '@vercel/analytics/react';
 import MainLayout from "../components/MainLayout";
 import { useState, useEffect } from "react";
 import theme from "../layout/theme";
@@ -21,6 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ChakraProvider theme={theme}>
         <MainLayout>
           <Component {...pageProps} />
+          <Analytics />
         </MainLayout>
       </ChakraProvider>
     </>
