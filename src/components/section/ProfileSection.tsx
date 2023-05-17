@@ -16,6 +16,7 @@ import Paragraph from "../Paragraph";
 import { resume } from "../../constant";
 import SocialButton from "../SocialButton";
 import { BiPhoneCall } from "react-icons/bi";
+import { FaKey } from "react-icons/fa";
 import SpotifySection from "./SpotifySection";
 import { SpotifySong } from "../../types/spotify";
 import { MotionFlex } from "../../utils/motion";
@@ -86,6 +87,16 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
               leftIcon={<BiPhoneCall />}
             >
               Contact Me
+            </Button>
+          </Link>
+          <Link href={"/maxtrueby.com_0xA2C7B8C8_public.asc"} style={{ textDecoration: "none" }}>
+            <Button
+              colorScheme="blue"
+              size="sm"
+              margin={"5px"}
+              leftIcon={<FaKey />}
+            >
+              PGP Signature
             </Button>
           </Link>
         </ButtonGroup>
