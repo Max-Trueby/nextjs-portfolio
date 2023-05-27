@@ -56,12 +56,6 @@ const siteConfig = {
         type: "gray",
       },
       {
-        url: "https://instagram.com/maxtrueby",
-        icon: <FaInstagram />,
-        name: "Instagram",
-        type: "pink",
-      },
-      {
         url: "https://stats.fm/maxtrueby",
         icon: <FaSpotify />,
         name: "Instagram",
