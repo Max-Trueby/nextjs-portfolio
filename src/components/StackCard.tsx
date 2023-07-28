@@ -32,7 +32,7 @@ const StackCard: React.FC<IStackCard> = ({ stack }) => {
         display="flex"
         role="group"
         _hover={{
-          borderColor: "blue.500",
+          borderColor: stack?.color,
         }}
       >
         <Flex alignItems="center" justifyContent="space-between">
@@ -40,7 +40,7 @@ const StackCard: React.FC<IStackCard> = ({ stack }) => {
             as="a"
             aria-label={stack?.name}
             mr={3}
-            _groupHover={{ color: "blue.500" }}
+            _groupHover={{ color: stack?.color }}
             icon={stack?.icon}
           />
           <LinkOverlay href={stack?.url} rel="noopener" isExternal>

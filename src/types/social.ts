@@ -5,6 +5,7 @@ export type Social = {
 }
 
 export type TechStack = {
+  color: string;
   name: string;
   icon: any;
   url: string;

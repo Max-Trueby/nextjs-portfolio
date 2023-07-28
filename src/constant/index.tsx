@@ -105,61 +105,73 @@ const webTechStacks = [
     name: "React",
     icon: <FaReact fontSize="20px" />,
     url: "https://reactnative.dev/",
+    color: "#61DBFB",
   },
   {
     name: "NextJS",
     icon: <TbBrandNextjs fontSize="20px" />,
     url: "https://nextjs.org/",
+    color: "#fff",
   },
   {
     name: "Typescript",
     icon: <SiTypescript fontSize="20px" />,
     url: "https://www.typescriptlang.org/",
+    color: "#007ACC",
   },
   {
     name: "Javascript",
     icon: <FaJs fontSize="20px" />,
     url: "https://www.javascript.com/",
+    color: "#F7DF1E",
   },
   {
     name: "Html5",
     icon: <SiHtml5 fontSize="20px" />,
     url: "https://html.com/",
+    color: "#E34F26",
   },
   {
     name: "CSS",
     icon: <SiCss3 fontSize="20px" />,
     url: "https://www.w3.org/Style/CSS/Overview.en.html",
+    color: "#1572B6",
   },
   {
     name: "TailwindCSS",
     icon: <SiTailwindcss fontSize="20px" />,
     url: "https://tailwindcss.com/",
+    color: "#38B2AC",
   },
   {
     name: "Python",
     icon: <SiPython fontSize="20px" />,
     url: "https://python.org/",
+    color: "#3776AB",
   },
   {
     name: "Discord",
     icon: <SiDiscord fontSize="20px" />,
     url: "https://discord.com/",
+    color: "#7289DA",
   },
   {
     name: "Figma",
     icon: <SiFigma fontSize="20px" />,
     url: "https://figma.com/",
+    color: "#F24E1E",
   },
   {
     name: "VSCode",
     icon: <SiVisualstudiocode fontSize="20px" />,
     url: "https://vscode.dev/",
+    color: "#007ACC",
   },
   {
     name: "JetBrains",
     icon: <SiJetbrains fontSize="20px" />,
     url: "https://jetbrains.com/",
+    color: "#fff",
   },
 ];
 

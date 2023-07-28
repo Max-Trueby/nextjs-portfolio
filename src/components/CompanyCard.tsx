@@ -25,7 +25,7 @@ const CompanyCard: React.FC<ICompanyCard> = ({ company, colorMode }) => {
       py={5}
       borderWidth="1px"
       rounded="xl"
-      bg={useColorModeValue("white", "gray.800")}
+      bg={useColorModeValue("white", "#282b30")}
       borderColor={useColorModeValue("gray.100", "gray.700")}
       _hover={{ borderColor: "blue.500" }}
       position="relative"

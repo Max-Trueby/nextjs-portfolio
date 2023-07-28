@@ -62,13 +62,7 @@ const SpotifySection: React.FC<ISpotifySection> = ({ song }) => {
                   fallback={<SiSpotify size={20} color={"#1ED760"} />}
                 />
               ) : (
-                <Image
-                margin="auto"
-                src="./notplaying.png"
-                objectFit={"cover"}
-                boxSize={["100px", "100px", "100px", "100px"]}
-                fallback={<SiSpotify size={100} color={"#1ED760"} />}
-              />
+                <SiSpotify size={100} color={"#424549"} />
               )}
 
               <Flex flexDirection="column" ml={[0, 0, 5, 5]} mt={[5, 5, 0, 0]}>

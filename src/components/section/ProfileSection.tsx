@@ -53,7 +53,7 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
         </Heading>
         <MotionFlex alignItems={"flex-end"} whileHover={{ scale: 1.2 }}>
           <Avatar
-            name="Teo Wen Long"
+            name="maxtrueby.com"
             src="/profile_picture.png"
             mb={5}
             size="lg"
@@ -67,13 +67,13 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
         Focused on{" "}
         <Link
           color={useColorModeValue("blue.500", "blue.400")}
-
+          style={{ textDecoration: "none", cursor: "text"}}
           fontWeight="500"
           isExternal
         >
           Web Development
         </Link>
-        .<br></br>
+        <br></br>
         {"\n"}Passion in Web, Design, Audio and Videography.{" "}
       </Paragraph>
 

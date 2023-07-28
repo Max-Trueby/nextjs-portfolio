@@ -109,7 +109,7 @@ const Contact = () => {
                         placeholder="Your Name"
                         size="lg"
                         onChange={(event) => setName(event.currentTarget.value)}
-                        bg={useColorModeValue("gray.100", "gray.900")}
+                        bg={useColorModeValue("gray.100", "#282b30")}
                       />
                     </FormControl>
                     <FormControl isRequired mt={6}>
@@ -123,7 +123,7 @@ const Contact = () => {
                         onChange={(event) =>
                           setEmail(event.currentTarget.value)
                         }
-                        bg={useColorModeValue("gray.100", "gray.900")}
+                        bg={useColorModeValue("gray.100", "#282b30")}
                       />
                     </FormControl>
                     <FormControl isRequired mt={6}>
@@ -136,7 +136,7 @@ const Contact = () => {
                         onChange={(event) =>
                           setMessage(event.currentTarget.value)
                         }
-                        bg={useColorModeValue("gray.100", "gray.900")}
+                        bg={useColorModeValue("gray.100", "#282b30")}
                       />
                     </FormControl>
                     <Button

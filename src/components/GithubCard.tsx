@@ -29,7 +29,7 @@ const GithubCard: React.FC<IGithubCard> = ({ gitRepo }) => {
         mt={2}
         rounded="xl"
         borderWidth="1px"
-        bg={useColorModeValue("white", "gray.800")}
+        bg={useColorModeValue("white", "#282b30")}
         borderColor={useColorModeValue("gray.300", "gray.700")}
         _hover={{ borderColor: "blue.500" }}
         minH="120px"
