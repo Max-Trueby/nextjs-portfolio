@@ -16,6 +16,7 @@ import {
   SiVisualstudiocode,
   SiJetbrains,
   SiPython,
+  SiGeneralelectric,
 } from "react-icons/si";
 import {
   FaReact,
@@ -77,26 +78,13 @@ const resume = {
   name: "Resume",
 };
 
+
 const mobileTechStacks = [
   {
-    name: "Android",
-    icon: <FaAndroid fontSize="20px" />,
-    url: "https://www.android.com/",
-  },
-  {
-    name: "React Native",
-    icon: <FaReact fontSize="20px" />,
-    url: "https://reactnative.dev/",
-  },
-  {
-    name: "Kotlin",
-    icon: <SiKotlin fontSize="20px" />,
-    url: "https://kotlinlang.org/",
-  },
-  {
-    name: "Java",
-    icon: <FaJava fontSize="20px" />,
-    url: "https://www.java.com/en/",
+    name: "generic",
+    icon: <SiGeneralelectric fontSize="20px" />,
+    url: "https://example.com/",
+    color: "#fff",
   },
 ];
 
@@ -177,20 +165,12 @@ const webTechStacks = [
 
 const otherTechStacks = [
   {
-    name: "CI/CD - Fastlane",
-    icon: <SiFastlane fontSize="20px" />,
-    url: "https://fastlane.tools/",
+    name: "generic",
+    icon: <SiGeneralelectric fontSize="20px" />,
+    url: "https://example.com/",
+    color: "#fff",
   },
-  {
-    name: "Firebase",
-    icon: <SiFirebase fontSize="20px" />,
-    url: "https://firebase.google.com/",
-  },
-  {
-    name: "Github & GitLab",
-    icon: <FaGitAlt fontSize="20px" />,
-    url: "https://www.gitlab.com/",
-  },
+
 ];
 
 const companies = [
