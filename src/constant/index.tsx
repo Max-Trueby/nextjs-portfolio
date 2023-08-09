@@ -217,8 +217,8 @@ const educations = [
     role: "Student & Tech (Light & Audio) Club Member",
     skills: ["think properly", "read properly", "write properly", "calculate properly"],
     period: "2018 - Pressent",
-    url: "https://list-gymnasium.de/",
-    logo: "/flg.jpg",
+    url: "/",
+    logo: "/profile_picture.png",
   },
   {
     title: "Elementary School",
@@ -226,8 +226,8 @@ const educations = [
     role: "Student",
     skills: ["talk", "read", "write", "maths"],
     period: "2014 - 2018",
-    url: "https://sws-rt.de/",
-    logo: "/sws.gif",
+    url: "/",
+    logo: "/profile_picture.png",
   },
 ];
 
